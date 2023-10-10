@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Form: Bob's Auto Parts</title>
+  <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+<main>
+  <h1>Bob's Auto Parts</h1>
+  <h2>Order Form</h2>
+  
+  <form action="processorder.php" method="post">
+   
+  <ul>
+  <li><label>Quantity of Tires</label>
+    <input type="text" name="tireqty"></li>
+  
+  <li><label>Quantity of Oil (bottles)</label>
+    <input type="text" name="oilqty"></li>
+  
+  <li><label>Quantity of Spark Plugs</label>  
+    <input type="text" name="sparkqty"></li>  
+
+  <li><label>How did you find Us?</label>
+    <select name="find">
+      <option value = "a">Repeat customer</option>
+      <option value = "b">TV advertising</option>
+      <option value = "c">Phone directory</option>
+      <option value = "d">Word of mouth</option>
+    </select></li>
+    
+    <li>
+      <input type="submit" value="Submit Order">
+    </li>
+  </ul>
+   </form>
+   
+</main>
+ 
+<footer>
+  <p><small>&#169; 2022 Maximilian Reitmayer</small></p>
+</footer>
+  
+</body>
+</html>
